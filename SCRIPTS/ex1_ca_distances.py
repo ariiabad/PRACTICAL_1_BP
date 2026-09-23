@@ -10,9 +10,6 @@ Parameters: PDB file (or --pdb_id), distance.
 Usage:
     python ex1_ca_distances.py --pdb_file structure.pdb --distance 8.0
     python ex1_ca_distances.py --pdb_id 1AKI --distance 8.0
-
-The results are printed to the console and also saved automatically to a
-text file (see --output).
 """
 import sys
 
