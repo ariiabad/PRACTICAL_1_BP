@@ -3,9 +3,7 @@
 Exercise 6
 ----------
 Same idea as exercise 5, but for disulphide bonds: they form between the
-SG atoms of two CYS residues when they are at the appropriate distance
-(typically ~1.9-2.1 A; a somewhat larger default cutoff is used to allow
-for structural variability).
+SG atoms of two CYS residues when they are at the appropriate distance.
 
 Parameters: PDB file (or --pdb_id). Optional: cutoff distance (default
 2.5 A).
@@ -14,8 +12,6 @@ Usage:
     python ex6_disulphide_bonds.py --pdb_file structure.pdb
     python ex6_disulphide_bonds.py --pdb_file structure.pdb --cutoff 2.2
 
-The results are printed to the console and also saved automatically to a
-text file (see --output).
 """
 import sys
 

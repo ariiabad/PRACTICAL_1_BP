@@ -4,7 +4,7 @@ Exercise 4
 ----------
 Generates the list of all CA atoms of a given residue type, with their
 coordinates. Accepts the residue code in 1- or 3-letter format
-automatically (e.g. "ARG" or "R").
+automatically 
 
 Parameters: PDB file (or --pdb_id), residue type.
 
@@ -12,8 +12,6 @@ Usage:
     python ex4_ca_by_restype.py --pdb_file structure.pdb --restype ARG
     python ex4_ca_by_restype.py --pdb_file structure.pdb --restype R
 
-The results are printed to the console and also saved automatically to a
-text file (see --output).
 """
 import sys
 

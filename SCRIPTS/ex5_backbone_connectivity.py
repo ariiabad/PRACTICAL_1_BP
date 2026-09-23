@@ -12,9 +12,6 @@ peptide bond (default 2.5 A).
 Usage:
     python ex5_backbone_connectivity.py --pdb_file structure.pdb
     python ex5_backbone_connectivity.py --pdb_file structure.pdb --cutoff 2.0
-
-The results are printed to the console and also saved automatically to a
-text file (see --output).
 """
 import sys
 

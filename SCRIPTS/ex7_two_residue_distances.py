@@ -10,9 +10,6 @@ CHAIN:NUMBER, same as in exercise 2).
 Usage:
     python ex7_two_residue_distances.py --pdb_file structure.pdb \
         --residue1 A:2 --residue2 A:7
-
-The results are printed to the console and also saved automatically to a
-text file (see --output).
 """
 import sys
 

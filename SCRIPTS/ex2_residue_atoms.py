@@ -5,13 +5,11 @@ Exercise 2
 Generates the list of all atoms of a given residue (with their
 coordinates).
 
-Parameters: PDB file (or --pdb_id), residue number (including the chain if
-needed, e.g. "A:315"; if the number is not ambiguous across chains, "315"
-is enough).
+Parameters: PDB file (or --pdb_id), residue number 
 
 Usage:
     python ex2_residue_atoms.py --pdb_file structure.pdb --residue A:315
-    python ex2_residue_atoms.py --pdb_file structure.pdb --residue 315
+    
 
 The results are printed to the console and also saved automatically to a
 text file (see --output).
